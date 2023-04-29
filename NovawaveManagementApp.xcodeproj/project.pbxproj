@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		F2CCADF229FC670D00081899 /* NovawaveManagementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCADF129FC670D00081899 /* NovawaveManagementAppApp.swift */; };
-		F2CCADF429FC670D00081899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCADF329FC670D00081899 /* ContentView.swift */; };
+		F2CCADF429FC670D00081899 /* CustomerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCADF329FC670D00081899 /* CustomerListView.swift */; };
 		F2CCADF629FC671000081899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CCADF529FC671000081899 /* Assets.xcassets */; };
 		F2CCADF929FC671000081899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CCADF829FC671000081899 /* Preview Assets.xcassets */; };
+		F2CCAE0029FC67AC00081899 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCADFF29FC67AC00081899 /* LoginView.swift */; };
+		F2CCAE0229FC681600081899 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0129FC681600081899 /* Customer.swift */; };
+		F2CCAE0429FC684000081899 /* CustomerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0329FC684000081899 /* CustomerDetailView.swift */; };
+		F2CCAE0629FC6A2500081899 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0529FC6A2500081899 /* CustomerViewModel.swift */; };
+		F2CCAE0829FC6B2700081899 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0729FC6B2700081899 /* Room.swift */; };
+		F2CCAE0A29FC6BB000081899 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0929FC6BB000081899 /* RoomView.swift */; };
+		F2CCAE0C29FC6CC100081899 /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAE0B29FC6CC100081899 /* RoomViewModel.swift */; };
+		F2CCAE0E29FC99B400081899 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2CCAE0D29FC99B300081899 /* GoogleService-Info.plist */; };
+		F2CCAE1129FC9A5100081899 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F2CCAE1029FC9A5100081899 /* FirebaseAuth */; };
+		F2CCAE1329FC9A5100081899 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F2CCAE1229FC9A5100081899 /* FirebaseFirestore */; };
+		F2CCAE1529FC9A5100081899 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2CCAE1429FC9A5100081899 /* FirebaseFirestoreSwift */; };
+		F2CCAE1729FC9A5100081899 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F2CCAE1629FC9A5100081899 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2CCADEE29FC670D00081899 /* NovawaveManagementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovawaveManagementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CCADF129FC670D00081899 /* NovawaveManagementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovawaveManagementAppApp.swift; sourceTree = "<group>"; };
-		F2CCADF329FC670D00081899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2CCADF329FC670D00081899 /* CustomerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListView.swift; sourceTree = "<group>"; };
 		F2CCADF529FC671000081899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CCADF829FC671000081899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2CCADFF29FC67AC00081899 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F2CCAE0129FC681600081899 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F2CCAE0329FC684000081899 /* CustomerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailView.swift; sourceTree = "<group>"; };
+		F2CCAE0529FC6A2500081899 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
+		F2CCAE0729FC6B2700081899 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F2CCAE0929FC6BB000081899 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		F2CCAE0B29FC6CC100081899 /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		F2CCAE0D29FC99B300081899 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CCAE1129FC9A5100081899 /* FirebaseAuth in Frameworks */,
+				F2CCAE1729FC9A5100081899 /* FirebaseStorage in Frameworks */,
+				F2CCAE1329FC9A5100081899 /* FirebaseFirestore in Frameworks */,
+				F2CCAE1529FC9A5100081899 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				F2CCADF129FC670D00081899 /* NovawaveManagementAppApp.swift */,
-				F2CCADF329FC670D00081899 /* ContentView.swift */,
+				F2CCADFF29FC67AC00081899 /* LoginView.swift */,
+				F2CCAE0129FC681600081899 /* Customer.swift */,
+				F2CCAE0729FC6B2700081899 /* Room.swift */,
+				F2CCAE0529FC6A2500081899 /* CustomerViewModel.swift */,
+				F2CCAE0B29FC6CC100081899 /* RoomViewModel.swift */,
+				F2CCADF329FC670D00081899 /* CustomerListView.swift */,
+				F2CCAE0329FC684000081899 /* CustomerDetailView.swift */,
+				F2CCAE0929FC6BB000081899 /* RoomView.swift */,
+				F2CCAE0D29FC99B300081899 /* GoogleService-Info.plist */,
 				F2CCADF529FC671000081899 /* Assets.xcassets */,
 				F2CCADF729FC671000081899 /* Preview Content */,
 			);
@@ -83,6 +115,12 @@
 			dependencies = (
 			);
 			name = NovawaveManagementApp;
+			packageProductDependencies = (
+				F2CCAE1029FC9A5100081899 /* FirebaseAuth */,
+				F2CCAE1229FC9A5100081899 /* FirebaseFirestore */,
+				F2CCAE1429FC9A5100081899 /* FirebaseFirestoreSwift */,
+				F2CCAE1629FC9A5100081899 /* FirebaseStorage */,
+			);
 			productName = NovawaveManagementApp;
 			productReference = F2CCADEE29FC670D00081899 /* NovawaveManagementApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,9 @@
 				Base,
 			);
 			mainGroup = F2CCADE529FC670D00081899;
+			packageReferences = (
+				F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F2CCADEF29FC670D00081899 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +168,7 @@
 			files = (
 				F2CCADF929FC671000081899 /* Preview Assets.xcassets in Resources */,
 				F2CCADF629FC671000081899 /* Assets.xcassets in Resources */,
+				F2CCAE0E29FC99B400081899 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2CCADF429FC670D00081899 /* ContentView.swift in Sources */,
+				F2CCAE0029FC67AC00081899 /* LoginView.swift in Sources */,
+				F2CCAE0A29FC6BB000081899 /* RoomView.swift in Sources */,
+				F2CCADF429FC670D00081899 /* CustomerListView.swift in Sources */,
+				F2CCAE0829FC6B2700081899 /* Room.swift in Sources */,
+				F2CCAE0C29FC6CC100081899 /* RoomViewModel.swift in Sources */,
+				F2CCAE0629FC6A2500081899 /* CustomerViewModel.swift in Sources */,
 				F2CCADF229FC670D00081899 /* NovawaveManagementAppApp.swift in Sources */,
+				F2CCAE0429FC684000081899 /* CustomerDetailView.swift in Sources */,
+				F2CCAE0229FC681600081899 /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +388,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2CCAE1029FC9A5100081899 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F2CCAE1229FC9A5100081899 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F2CCAE1429FC9A5100081899 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F2CCAE1629FC9A5100081899 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2CCAE0F29FC9A5100081899 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2CCADE629FC670D00081899 /* Project object */;
 }
