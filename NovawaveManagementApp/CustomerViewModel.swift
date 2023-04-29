@@ -18,22 +18,22 @@ class CustomerViewModel: ObservableObject {
         
         if let id = customer.id { // spot must alrady exist, so save
             do {
-                try await db.collection("spots").document(id).setData(customer.dictionary)
+                try await db.collection("customers").document(id).setData(customer.dictionary)
                 print("😎 Data updated successfully!")
                 return true
             } catch {
-                print("😡 ERROR: Could not update data in 'spots' \(error.localizedDescription)")
+                print("😡 ERROR: Could not update data in 'customers' \(error.localizedDescription)")
                 return false
             }
         } else { // no id? Then this must be a new spot to add
             do {
-                let documentRef = try await db.collection("spots").addDocument(data: customer.dictionary)
+                let documentRef = try await db.collection("customers").addDocument(data: customer.dictionary)
                 self.customer = customer
                 self.customer.id = documentRef.documentID
                 print("🐣 Data added successfully!")
                 return true
             } catch {
-                print("😡 ERROR: Could not create a new spot in 'spots' \(error.localizedDescription)")
+                print("😡 ERROR: Could not create a new spot in 'customers' \(error.localizedDescription)")
                 return false
             }
         }

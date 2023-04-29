@@ -104,7 +104,7 @@ struct CustomerDetailView: View {
         }
         .onAppear {
             if !previewRunning && customer.id != nil { // This is to prevent PreviewProvider error
-                $rooms.path = "spots/\(customer.id ?? "")/reviews"
+                $rooms.path = "customers/\(customer.id ?? "")/rooms"
                 print("reviews.path = \($rooms.path)")
             } else { // spot.id starts out as nil
                 showingAsSheet = true
@@ -157,7 +157,7 @@ struct CustomerDetailView: View {
                     customer = customerVM.customer
                     if success {
                         // If we didn't update the path after saving spot, we wouldn't be able to show new reviews added
-                        $rooms.path = "spots/\(customer.id ?? "")/reviews"
+                        $rooms.path = "customers/\(customer.id ?? "")/rooms"
                         showRoomViewSheet.toggle()
                     } else {
                         print("😡 Dang! Error saving spot!")
