@@ -15,6 +15,10 @@ struct CustomerListView: View {
     
     var body: some View {
         NavigationStack {
+            Image("header")
+                .resizable()
+                .scaledToFit()
+            
             List(customers) { customer in
                 NavigationLink {
                     CustomerDetailView(customer: customer)

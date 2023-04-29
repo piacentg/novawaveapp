@@ -72,7 +72,7 @@ struct CustomerDetailView: View {
                         NavigationLink {
                             RoomView(customer: customer, room: room)
                         } label: {
-                            Text(room.name) //TODO: Build a custom cell showing stars, title, and body
+                            Text(room.title) //TODO: Build a custom cell showing stars, title, and body
                         }
                     }
                 } header: {
